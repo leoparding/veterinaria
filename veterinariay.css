@@ -1,0 +1,102 @@
+*{
+    margin: 1%;
+}
+header{
+    background-color: aqua;
+    height: 150px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+}
+img{
+    height: 100px;
+   margin-left: 20%;
+   
+}
+.barra{
+    background-color: aqua;
+    border: solid;
+    justify-content: flex-start;
+    height: 80px;
+}
+
+ul{
+
+    padding-top: 1.5%;
+}
+.barra1{
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: center;
+    text-decoration: none;
+}
+.imagen{
+    border: solid;
+    background-color: aliceblue;
+}
+
+section{
+    width: 54%;
+}  
+.formulario{
+ width: 30%;
+  
+}
+form{
+ border: solid;
+ background-color: aqua;
+ height: 500px;
+ font-family: 'Times New Roman', Times, serif;
+
+}
+.control{
+ width: 90%;
+ padding: 7px;
+border: 20%;
+margin-bottom: 16px;
+border: 1px solid orange;
+font-size: 12px;
+}
+.boton{
+   width: 90%;
+   background: grey;
+   border: none;
+   padding: 10px;
+   margin: 10px;
+   font-size: 15px;
+
+}
+h2{
+    width: center;
+}
+.info1{
+    border: solid;
+    margin-bottom: 5%;
+    background-color: aqua;
+}
+.info2{
+    border: solid;
+    background-color: aqua;
+}
+.principal{
+    display: flex;
+}
+.contenido{
+    margin-right: 10%;
+    width: 3SS00vh;
+}
+.cont1{
+    display: flex;
+}
+img{
+   margin-left: 0%;
+}
+footer{
+    background-color: aqua;
+    border: solid;
+    display: flex;
+    justify-content: center;
+}

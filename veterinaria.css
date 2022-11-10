@@ -1,0 +1,113 @@
+body{
+    font-family:sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    min-height: 75px;
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: 10px;
+}
+    
+.logo img{
+    height: 55px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right:25px;
+}
+
+nav a:hover{
+    color: purple;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding:10px 0px;
+    }
+
+}
+
+.main {
+    /* background: yellow; */
+    width: 100%;
+    /* height: calc(100vh - 200px); */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    /* background: green; */
+    width: 75%;
+    height: auto;
+
+}
+
+.articulo {
+    background: rgb(167, 38, 38);
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: justify;
+    padding: 38px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.artiuclo h3 {
+    font-size: 24px;
+}
+
+section {
+    /* background: green; */
+    width: 75%;
+    height: auto;
+
+}
+
+section a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+section a:hover {
+    color: rgb(0, 133, 93);
+}
+
+.aside {
+    background: hsla(61, 57%, 58%, 0.376);
+    width: 25%;
+    border: 1px solid #dcdcdc;
+    border-radius: 15px;
+}
+
+.controls {
+    width: auto;
+    /* background: #24303c; */
+    padding: auto;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #000000;
+    font-size: 18px;
+    /* color: white; */
+}
+

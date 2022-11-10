@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing:border-box ;
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+
+.contenedor{
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header nav{
+    background-color: black;
+    margin-bottom: 10px;    /*para sombras*/
+    border-radius:10px;
+}
+
+
+header ul{
+    list-style: none;
+    overflow: hidden; /*barra borre contenido o dibujar barras*/
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a{
+    display: block; /*para editar más facil*/
+    padding: 60px;
+    color: #fff;
+    text-decoration: none;
+    font: oblique bold 100% cursive;
+}
+
+ header nav ul li a:hover {
+    background:grey;
+    
+}
+
+.encabezado{
+    display: flex;
+     margin: 8px;
+     border:solid;
+     border-radius: 10px;
+    
+    
+
+}
+
+.logo{
+    display: flex;
+    margin-left: 20%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+
+}
+
+.titulo{
+    margin-left: 15%;;
+   font:oblique bold 100% cursive;
+    text-shadow: gray 3px 3px;
+
+}
+
+section{
+
+    border:solid;
+    margin-top: 1%;
+    border-radius: 10px;
+    float: left;
+    width: 55%;
+    margin-right: 40px;
+   
+
+}
+ p {
+    padding: 2px;
+    height: 200px;
+    width: 75%;
+    text-align: justify;
+    margin-left: 10px;
+    padding-right: 15px;
+    font:oblique bold 80% cursive;
+
+ }
+
+ h3{
+    margin-top: 20px;
+    margin-left: 10px;
+    font:oblique bold 120% cursive;
+}
+
+
+
+.img{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    padding-bottom: 12px;
+    
+}
+
+.imagen{
+    display: flex;
+    border: 1px solid;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 5px;
+
+    
+}
+
+.formulario{
+   display:flex;
+    justify-content: flex-end;
+
+}
+
+form {
+   width: 450px; 
+   background: gray;
+   color: #fff;
+   padding: 110px;
+   border-radius: 10px;
+   font-family: 'calabri'; 
+   box-shadow: 7px 13px 37px #000;
+   height: 740px;
+   
+
+}
+
+form h4{
+  
+    font-size: 35px;
+    margin-bottom: 1px;
+    
+    
+    
+}
+
+.control{
+  
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid blue;
+    font-family: 'calabri'; 
+    font-size: 18px;
+}
+
+.boton{
+    width: 100%;
+    background:cornflowerblue;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+hr{
+    margin-top: 12%;
+    height: 5px;
+    background-color: #000;
+}
+
+footer{
+    margin-left: 44%;
+    
+}
+ 
